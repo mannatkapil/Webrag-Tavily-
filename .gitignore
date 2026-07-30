@@ -1,0 +1,36 @@
+# Environment variables (sensitive keys, secrets)
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# uv / lock files (optional — uncomment if you don't want to track uv.lock)
+# uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
